@@ -3,6 +3,7 @@ project "Box2D"
 	language "C++"
 	cppdialect "C++11"
 	staticruntime "on"
+	architecture "x86_64"
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
